@@ -8,7 +8,6 @@ fn main() {
   let matrix: Vec<Vec<char>> = file.lines()
     .map(|line| line.unwrap().chars().collect())
     .collect();
-  println!("{:?}", matrix);
   let mut sum = 0;
   let n = matrix.len();
   for i in 0..n {
